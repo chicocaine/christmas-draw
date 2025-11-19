@@ -1,4 +1,4 @@
-from flask import Flask, jsonify
+from flask import Flask, jsonify, send_from_directory
 from flask_cors import CORS
 from flask_jwt_extended import JWTManager
 from db import db
@@ -12,24 +12,33 @@ from dotenv import load_dotenv
 load_dotenv()
 
 def create_app():
-    app = Flask(__name__)
+    app = Flask(__name__, static_folder='../frontend/dist', static_url_path='/')
 
     # Load environment variables for JWT, DB
     app.config["SECRET_KEY"] = os.getenv("SECRET_KEY")
     app.config["JWT_SECRET_KEY"] = os.getenv("JWT_SECRET_KEY")
-    app.config["JWT_CSRF_PROTECTION"] = False  # Disable CSRF for API
+    app.config["JWT_CSRF_PROTECTION"] = False  
 
-    # SQLite database
-    app.config["SQLALCHEMY_DATABASE_URI"] = os.getenv("DATABASE_URI", "sqlite:///database.db")
+    # SQLite database - use volume mount in production
+    db_path = os.getenv("DATABASE_URI")
+    if not db_path:
+        # Check if running in Fly.io with volume mount
+        if os.path.exists("/data"):
+            db_path = "sqlite:////data/database.db"
+        else:
+            db_path = "sqlite:///database.db"
+    app.config["SQLALCHEMY_DATABASE_URI"] = db_path
     app.config["SQLALCHEMY_TRACK_MODIFICATIONS"] = False
 
     # CORS configuration for frontend access
     allowed_origins = [
         "http://localhost:5173",
         "http://localhost:5174",
-        "http://172.24.232.8:5173",
-        "http://172.24.232.8:5174"
+        "https://christmas-draw.fly.dev",
+        os.getenv("FRONTEND_URL", "")
     ]
+    # Filter out empty strings
+    allowed_origins = [origin for origin in allowed_origins if origin]
     CORS(app, supports_credentials=True, origins=allowed_origins)
     jwt = JWTManager(app)
     
@@ -56,6 +65,20 @@ def create_app():
     app.register_blueprint(auth_bp, url_prefix="/auth")
     app.register_blueprint(admin_bp, url_prefix="/admin")
     app.register_blueprint(user_bp, url_prefix="/user")
+    
+    # Serve React app (only in production)
+    @app.route('/')
+    def serve_react_app():
+        return send_from_directory(app.static_folder, 'index.html')
+    
+    # Fallback route for client-side routing
+    @app.errorhandler(404)
+    def not_found(e):
+        # If the request is for an API endpoint, return JSON error
+        if '/auth' in str(e) or '/admin' in str(e) or '/user' in str(e):
+            return jsonify(error='Not found'), 404
+        # Otherwise serve the React app
+        return send_from_directory(app.static_folder, 'index.html')
     
     return app
 

@@ -1,6 +1,11 @@
 import axios from 'axios';
 
-const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:5000';
+// IMPORTANT
+// In production, use relative URLs so requests go to the same domain
+// In development, use the environment variable or localhost
+const API_URL = import.meta.env.VITE_API_URL || (
+  import.meta.env.PROD ? '' : 'http://localhost:5000'
+);
 
 const api = axios.create({
   baseURL: API_URL,
@@ -9,7 +14,6 @@ const api = axios.create({
   },
 });
 
-// Add JWT token to requests
 api.interceptors.request.use(
   (config) => {
     const token = localStorage.getItem('token');
@@ -23,12 +27,9 @@ api.interceptors.request.use(
   }
 );
 
-// Handle token expiration
 api.interceptors.response.use(
   (response) => response,
   (error) => {
-    // Only redirect on 401 if we have a token (meaning it expired)
-    // Don't redirect on login failures (no token present)
     if (error.response?.status === 401 && localStorage.getItem('token')) {
       localStorage.removeItem('token');
       localStorage.removeItem('isAdmin');
