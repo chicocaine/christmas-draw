@@ -36,7 +36,7 @@ export default function Login() {
       <div className="max-w-md w-full bg-white rounded-lg shadow-xl p-6 sm:p-8">
         <div className="text-center mb-6 sm:mb-8">
           <h1 className="text-3xl sm:text-4xl font-bold text-red-600 mb-2">🎄 Christmas Draw</h1>
-          <p className="text-sm sm:text-base text-gray-600">Secret Santa Assignment System</p>
+          <p className="text-sm sm:text-base text-gray-600">Secret Santa Yes</p>
         </div>
 
         <form onSubmit={handleSubmit} className="space-y-4 sm:space-y-6">
