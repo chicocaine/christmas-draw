@@ -10,13 +10,13 @@ COPY frontend/package*.json ./
 # Install dependencies
 RUN npm install
 
-# Copy frontend source (excluding .env files)
+# Copy frontend source
 COPY frontend/ ./
 
-# Remove any .env files to ensure production build uses correct settings
-RUN rm -f .env .env.local .env.production.local
+# Remove local .env files, keep .env.production for build
+RUN rm -f .env .env.local .env.development .env.*.local
 
-# Build frontend for production (VITE_API_URL will be empty, using relative URLs)
+# Build frontend for production (uses .env.production)
 RUN npm run build
 
 # Stage 2: Setup Python backend

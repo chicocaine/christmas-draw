@@ -1,3 +1,23 @@
 start.sh
 errors.txt
 build.sh
+
+# Local environment files (don't commit)
+.env
+.env.local
+.env.*.local
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.db
+instance/
+
+# Node
+node_modules/
+dist/
+
+# IDE
+.vscode/
+.idea/

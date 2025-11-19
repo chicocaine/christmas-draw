@@ -83,7 +83,6 @@ export default function UserDashboard() {
           setTimeout(async () => {
             setRolling(false);
             setRevealed(true);
-            // Mark assignment as viewed after animation completes
             try {
               await userAPI.markAssignmentViewed();
             } catch (err) {
@@ -156,7 +155,7 @@ export default function UserDashboard() {
                 </div>
               ) : (
                 <div className="mt-4 sm:mt-6 p-6 sm:p-8 bg-linear-to-r from-red-100 to-green-100 rounded-lg border-2 sm:border-4 border-green-600 shadow-xl">
-                  <p className="text-gray-700 text-lg sm:text-xl mb-4">You are Secret Santa for:</p>
+                  <p className="text-gray-700 text-lg sm:text-xl mb-4">You are the Secret Santa for:</p>
                   <p className="text-2xl sm:text-3xl font-bold text-green-600 mb-4 wrap-break-word">{assignment}</p>
                   <p className="text-gray-600 text-sm sm:text-base mt-4 sm:mt-6">
                     🤫 Remember, it's a secret! Don't tell anyone who you got!
