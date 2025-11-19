@@ -1,0 +1,512 @@
+ * Serving Flask app 'app'
+ * Debug mode: on
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.24.232.8:5000
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 790-165-831
+ * Detected change in '/home/chicocaine/soft-dev/christmas-draw/backend/routes/admin.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 790-165-831
+172.24.224.1 - - [18/Nov/2025 22:56:34] "OPTIONS /admin/create-users HTTP/1.1" 200 -
+172.24.224.1 - - [18/Nov/2025 22:56:34] "[31m[1mPOST /admin/create-users HTTP/1.1[0m" 422 -
+172.24.224.1 - - [18/Nov/2025 22:59:58] "OPTIONS /admin/create-users HTTP/1.1" 200 -
+172.24.224.1 - - [18/Nov/2025 22:59:58] "[31m[1mPOST /admin/create-users HTTP/1.1[0m" 422 -
+172.24.224.1 - - [18/Nov/2025 23:00:11] "OPTIONS /admin/create-users HTTP/1.1" 200 -
+172.24.224.1 - - [18/Nov/2025 23:00:11] "[31m[1mPOST /admin/create-users HTTP/1.1[0m" 422 -
+ * Detected change in '/home/chicocaine/soft-dev/christmas-draw/backend/routes/admin.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 790-165-831
+ * Detected change in '/home/chicocaine/soft-dev/christmas-draw/backend/app.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 790-165-831
+ * Detected change in '/home/chicocaine/soft-dev/christmas-draw/backend/app.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 790-165-831
+172.24.224.1 - - [18/Nov/2025 23:02:37] "OPTIONS /admin/create-users HTTP/1.1" 200 -
+172.24.224.1 - - [18/Nov/2025 23:02:37] "[31m[1mPOST /admin/create-users HTTP/1.1[0m" 422 -
+ * Detected change in '/home/chicocaine/soft-dev/christmas-draw/backend/app.py', reloading
+Invalid token error: Subject must be a string
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 790-165-831
+172.24.224.1 - - [18/Nov/2025 23:04:02] "OPTIONS /admin/create-users HTTP/1.1" 200 -
+172.24.224.1 - - [18/Nov/2025 23:04:02] "[31m[1mPOST /admin/create-users HTTP/1.1[0m" 422 -
+172.24.224.1 - - [18/Nov/2025 23:04:25] "OPTIONS /admin/create-users HTTP/1.1" 200 -
+172.24.224.1 - - [18/Nov/2025 23:04:25] "[31m[1mPOST /admin/create-users HTTP/1.1[0m" 422 -
+ * Detected change in '/home/chicocaine/soft-dev/christmas-draw/backend/app.py', reloading
+Invalid token error: Subject must be a string
+Invalid token error: Subject must be a string
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 790-165-831
+172.24.224.1 - - [18/Nov/2025 23:05:24] "OPTIONS /admin/create-users HTTP/1.1" 200 -
+172.24.224.1 - - [18/Nov/2025 23:05:24] "[31m[1mPOST /admin/create-users HTTP/1.1[0m" 422 -
+ * Detected change in '/home/chicocaine/soft-dev/christmas-draw/backend/app.py', reloading
+Invalid token error: Subject must be a string
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 790-165-831
+ * Detected change in '/home/chicocaine/soft-dev/christmas-draw/backend/app.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 790-165-831
+172.24.224.1 - - [18/Nov/2025 23:06:26] "OPTIONS /admin/create-users HTTP/1.1" 200 -
+172.24.224.1 - - [18/Nov/2025 23:06:26] "[31m[1mPOST /admin/create-users HTTP/1.1[0m" 422 -
+ * Detected change in '/home/chicocaine/soft-dev/christmas-draw/backend/routes/auth.py', reloading
+Invalid token error: Subject must be a string
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 790-165-831
+ * Detected change in '/home/chicocaine/soft-dev/christmas-draw/backend/routes/admin.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 790-165-831
+172.24.224.1 - - [18/Nov/2025 23:08:14] "OPTIONS /admin/create-users HTTP/1.1" 200 -
+172.24.224.1 - - [18/Nov/2025 23:08:14] "[31m[1mPOST /admin/create-users HTTP/1.1[0m" 422 -
+172.24.224.1 - - [18/Nov/2025 23:09:21] "OPTIONS /auth/login HTTP/1.1" 200 -
+172.24.224.1 - - [18/Nov/2025 23:09:21] "POST /auth/login HTTP/1.1" 200 -
+172.24.224.1 - - [18/Nov/2025 23:09:37] "OPTIONS /admin/create-users HTTP/1.1" 200 -
+172.24.224.1 - - [18/Nov/2025 23:09:37] "POST /admin/create-users HTTP/1.1" 200 -
+ * Detected change in '/home/chicocaine/soft-dev/christmas-draw/backend/routes/user.py', reloading
+Invalid token error: Subject must be a string
+=== CREATE USERS CALLED ===
+Received data: {'users': [{'name': 'Eduard Anthony Pechayco', 'username': 'eduard', 'password': 'eduard123', 'is_admin': False}]}
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 790-165-831
+172.24.224.1 - - [18/Nov/2025 23:10:44] "OPTIONS /admin/generate-assignments HTTP/1.1" 200 -
+172.24.224.1 - - [18/Nov/2025 23:10:44] "[31m[1mPOST /admin/generate-assignments HTTP/1.1[0m" 400 -
+ * Detected change in '/home/chicocaine/soft-dev/christmas-draw/backend/routes/admin.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 790-165-831
+172.24.224.1 - - [18/Nov/2025 23:12:02] "OPTIONS /admin/users HTTP/1.1" 200 -
+172.24.224.1 - - [18/Nov/2025 23:12:02] "GET /admin/users HTTP/1.1" 200 -
+172.24.224.1 - - [18/Nov/2025 23:13:05] "OPTIONS /admin/create-users HTTP/1.1" 200 -
+172.24.224.1 - - [18/Nov/2025 23:13:06] "POST /admin/create-users HTTP/1.1" 200 -
+172.24.224.1 - - [18/Nov/2025 23:13:06] "OPTIONS /admin/users HTTP/1.1" 200 -
+172.24.224.1 - - [18/Nov/2025 23:13:06] "GET /admin/users HTTP/1.1" 200 -
+172.24.224.1 - - [18/Nov/2025 23:13:07] "OPTIONS /admin/generate-assignments HTTP/1.1" 200 -
+172.24.224.1 - - [18/Nov/2025 23:13:07] "POST /admin/generate-assignments HTTP/1.1" 200 -
+172.24.224.1 - - [18/Nov/2025 23:13:07] "GET /admin/users HTTP/1.1" 200 -
+172.24.224.1 - - [18/Nov/2025 23:13:18] "OPTIONS /auth/login HTTP/1.1" 200 -
+172.24.224.1 - - [18/Nov/2025 23:13:19] "POST /auth/login HTTP/1.1" 200 -
+172.24.224.1 - - [18/Nov/2025 23:13:19] "OPTIONS /user/assignment HTTP/1.1" 200 -
+172.24.224.1 - - [18/Nov/2025 23:13:19] "OPTIONS /user/assignment HTTP/1.1" 200 -
+172.24.224.1 - - [18/Nov/2025 23:13:19] "GET /user/assignment HTTP/1.1" 200 -
+172.24.224.1 - - [18/Nov/2025 23:13:19] "GET /user/assignment HTTP/1.1" 200 -
+ * Detected change in '/home/chicocaine/soft-dev/christmas-draw/backend/routes/auth.py', reloading
+=== CREATE USERS CALLED ===
+Received data: {'users': [{'name': 'Sofia Marie Pechayco', 'username': 'sofia', 'password': 'sofia123', 'is_admin': False}]}
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 790-165-831
+ * Detected change in '/home/chicocaine/soft-dev/christmas-draw/backend/routes/admin.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 790-165-831
+172.24.224.1 - - [18/Nov/2025 23:18:08] "OPTIONS /auth/login HTTP/1.1" 200 -
+172.24.224.1 - - [18/Nov/2025 23:18:09] "POST /auth/login HTTP/1.1" 200 -
+172.24.224.1 - - [18/Nov/2025 23:18:09] "OPTIONS /admin/users HTTP/1.1" 200 -
+172.24.224.1 - - [18/Nov/2025 23:18:09] "OPTIONS /admin/users HTTP/1.1" 200 -
+172.24.224.1 - - [18/Nov/2025 23:18:09] "GET /admin/users HTTP/1.1" 200 -
+172.24.224.1 - - [18/Nov/2025 23:18:09] "GET /admin/users HTTP/1.1" 200 -
+172.24.224.1 - - [18/Nov/2025 23:18:16] "OPTIONS /admin/generate-assignments HTTP/1.1" 200 -
+172.24.224.1 - - [18/Nov/2025 23:18:16] "POST /admin/generate-assignments HTTP/1.1" 200 -
+172.24.224.1 - - [18/Nov/2025 23:18:16] "OPTIONS /admin/users HTTP/1.1" 200 -
+172.24.224.1 - - [18/Nov/2025 23:18:16] "GET /admin/users HTTP/1.1" 200 -
+172.24.224.1 - - [18/Nov/2025 23:18:35] "OPTIONS /admin/create-users HTTP/1.1" 200 -
+172.24.224.1 - - [18/Nov/2025 23:18:36] "POST /admin/create-users HTTP/1.1" 200 -
+172.24.224.1 - - [18/Nov/2025 23:18:36] "OPTIONS /admin/users HTTP/1.1" 200 -
+172.24.224.1 - - [18/Nov/2025 23:18:36] "GET /admin/users HTTP/1.1" 200 -
+172.24.224.1 - - [18/Nov/2025 23:18:40] "OPTIONS /admin/users/4 HTTP/1.1" 200 -
+172.24.224.1 - - [18/Nov/2025 23:18:40] "DELETE /admin/users/4 HTTP/1.1" 200 -
+172.24.224.1 - - [18/Nov/2025 23:18:40] "GET /admin/users HTTP/1.1" 200 -
+ * Detected change in '/home/chicocaine/soft-dev/christmas-draw/backend/routes/admin.py', reloading
+=== CREATE USERS CALLED ===
+Received data: {'users': [{'name': 'ramdn', 'username': 'randa', 'password': 'randa123', 'is_admin': False}]}
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 790-165-831
+172.24.224.1 - - [18/Nov/2025 23:21:57] "OPTIONS /admin/users HTTP/1.1" 200 -
+172.24.224.1 - - [18/Nov/2025 23:21:57] "GET /admin/users HTTP/1.1" 200 -
+172.24.224.1 - - [18/Nov/2025 23:22:55] "OPTIONS /admin/assignments HTTP/1.1" 200 -
+172.24.224.1 - - [18/Nov/2025 23:22:55] "GET /admin/assignments HTTP/1.1" 200 -
+172.24.224.1 - - [18/Nov/2025 23:23:09] "OPTIONS /admin/create-users HTTP/1.1" 200 -
+172.24.224.1 - - [18/Nov/2025 23:23:10] "POST /admin/create-users HTTP/1.1" 200 -
+172.24.224.1 - - [18/Nov/2025 23:23:10] "OPTIONS /admin/users HTTP/1.1" 200 -
+172.24.224.1 - - [18/Nov/2025 23:23:10] "GET /admin/users HTTP/1.1" 200 -
+172.24.224.1 - - [18/Nov/2025 23:23:25] "OPTIONS /admin/create-users HTTP/1.1" 200 -
+172.24.224.1 - - [18/Nov/2025 23:23:25] "POST /admin/create-users HTTP/1.1" 200 -
+172.24.224.1 - - [18/Nov/2025 23:23:25] "OPTIONS /admin/users HTTP/1.1" 200 -
+172.24.224.1 - - [18/Nov/2025 23:23:25] "GET /admin/users HTTP/1.1" 200 -
+172.24.224.1 - - [18/Nov/2025 23:23:28] "OPTIONS /admin/generate-assignments HTTP/1.1" 200 -
+172.24.224.1 - - [18/Nov/2025 23:23:28] "POST /admin/generate-assignments HTTP/1.1" 200 -
+172.24.224.1 - - [18/Nov/2025 23:23:28] "GET /admin/users HTTP/1.1" 200 -
+172.24.224.1 - - [18/Nov/2025 23:23:29] "OPTIONS /admin/assignments HTTP/1.1" 200 -
+172.24.224.1 - - [18/Nov/2025 23:23:29] "GET /admin/assignments HTTP/1.1" 200 -
+172.24.224.1 - - [18/Nov/2025 23:23:36] "OPTIONS /admin/generate-assignments HTTP/1.1" 200 -
+172.24.224.1 - - [18/Nov/2025 23:23:36] "POST /admin/generate-assignments HTTP/1.1" 200 -
+172.24.224.1 - - [18/Nov/2025 23:23:36] "OPTIONS /admin/users HTTP/1.1" 200 -
+172.24.224.1 - - [18/Nov/2025 23:23:36] "GET /admin/users HTTP/1.1" 200 -
+172.24.224.1 - - [18/Nov/2025 23:23:40] "OPTIONS /admin/assignments HTTP/1.1" 200 -
+172.24.224.1 - - [18/Nov/2025 23:23:40] "GET /admin/assignments HTTP/1.1" 200 -
+172.24.224.1 - - [18/Nov/2025 23:23:44] "OPTIONS /admin/generate-assignments HTTP/1.1" 200 -
+172.24.224.1 - - [18/Nov/2025 23:23:45] "POST /admin/generate-assignments HTTP/1.1" 200 -
+172.24.224.1 - - [18/Nov/2025 23:23:45] "OPTIONS /admin/users HTTP/1.1" 200 -
+172.24.224.1 - - [18/Nov/2025 23:23:45] "GET /admin/users HTTP/1.1" 200 -
+172.24.224.1 - - [18/Nov/2025 23:23:46] "OPTIONS /admin/assignments HTTP/1.1" 200 -
+172.24.224.1 - - [18/Nov/2025 23:23:46] "GET /admin/assignments HTTP/1.1" 200 -
+172.24.224.1 - - [18/Nov/2025 23:24:05] "OPTIONS /admin/generate-assignments HTTP/1.1" 200 -
+172.24.224.1 - - [18/Nov/2025 23:24:05] "POST /admin/generate-assignments HTTP/1.1" 200 -
+172.24.224.1 - - [18/Nov/2025 23:24:05] "OPTIONS /admin/users HTTP/1.1" 200 -
+172.24.224.1 - - [18/Nov/2025 23:24:05] "GET /admin/users HTTP/1.1" 200 -
+172.24.224.1 - - [18/Nov/2025 23:24:07] "OPTIONS /admin/assignments HTTP/1.1" 200 -
+172.24.224.1 - - [18/Nov/2025 23:24:07] "GET /admin/assignments HTTP/1.1" 200 -
+ * Detected change in '/home/chicocaine/soft-dev/christmas-draw/backend/routes/admin.py', reloading
+=== CREATE USERS CALLED ===
+Received data: {'users': [{'name': 'test1', 'username': 'test1', 'password': 'test1', 'is_admin': False}]}
+=== CREATE USERS CALLED ===
+Received data: {'users': [{'name': 'test2', 'username': 'test2', 'password': 'teste2', 'is_admin': False}, {'name': 'test3', 'username': 'test3', 'password': 'test3', 'is_admin': False}]}
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 790-165-831
+ * Detected change in '/home/chicocaine/soft-dev/christmas-draw/backend/routes/admin.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 790-165-831
+ * Detected change in '/home/chicocaine/soft-dev/christmas-draw/backend/app.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 790-165-831
+ * Detected change in '/home/chicocaine/soft-dev/christmas-draw/backend/routes/admin.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 790-165-831
+172.24.224.1 - - [18/Nov/2025 23:28:54] "OPTIONS /admin/users/4 HTTP/1.1" 200 -
+172.24.224.1 - - [18/Nov/2025 23:28:54] "DELETE /admin/users/4 HTTP/1.1" 200 -
+172.24.224.1 - - [18/Nov/2025 23:28:54] "OPTIONS /admin/users HTTP/1.1" 200 -
+172.24.224.1 - - [18/Nov/2025 23:28:54] "GET /admin/users HTTP/1.1" 200 -
+172.24.224.1 - - [18/Nov/2025 23:28:56] "OPTIONS /admin/users/5 HTTP/1.1" 200 -
+172.24.224.1 - - [18/Nov/2025 23:28:56] "DELETE /admin/users/5 HTTP/1.1" 200 -
+172.24.224.1 - - [18/Nov/2025 23:28:59] "GET /admin/users HTTP/1.1" 200 -
+172.24.224.1 - - [18/Nov/2025 23:29:00] "OPTIONS /admin/users/6 HTTP/1.1" 200 -
+172.24.224.1 - - [18/Nov/2025 23:29:00] "DELETE /admin/users/6 HTTP/1.1" 200 -
+172.24.224.1 - - [18/Nov/2025 23:29:00] "GET /admin/users HTTP/1.1" 200 -
+ * Detected change in '/home/chicocaine/soft-dev/christmas-draw/backend/routes/admin.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 790-165-831
+172.24.224.1 - - [18/Nov/2025 23:31:49] "OPTIONS /admin/users HTTP/1.1" 200 -
+172.24.224.1 - - [18/Nov/2025 23:31:49] "GET /admin/users HTTP/1.1" 200 -
+172.24.224.1 - - [18/Nov/2025 23:32:59] "OPTIONS /admin/users/2/password HTTP/1.1" 200 -
+172.24.224.1 - - [18/Nov/2025 23:32:59] "PUT /admin/users/2/password HTTP/1.1" 200 -
+172.24.224.1 - - [18/Nov/2025 23:33:09] "OPTIONS /auth/login HTTP/1.1" 200 -
+172.24.224.1 - - [18/Nov/2025 23:33:10] "[31m[1mPOST /auth/login HTTP/1.1[0m" 401 -
+172.24.224.1 - - [18/Nov/2025 23:33:15] "OPTIONS /auth/login HTTP/1.1" 200 -
+172.24.224.1 - - [18/Nov/2025 23:33:16] "POST /auth/login HTTP/1.1" 200 -
+172.24.224.1 - - [18/Nov/2025 23:33:16] "OPTIONS /user/assignment HTTP/1.1" 200 -
+172.24.224.1 - - [18/Nov/2025 23:33:16] "OPTIONS /user/assignment HTTP/1.1" 200 -
+172.24.224.1 - - [18/Nov/2025 23:33:16] "GET /user/assignment HTTP/1.1" 200 -
+172.24.224.1 - - [18/Nov/2025 23:33:16] "GET /user/assignment HTTP/1.1" 200 -
+172.24.224.1 - - [18/Nov/2025 23:33:31] "OPTIONS /auth/login HTTP/1.1" 200 -
+172.24.224.1 - - [18/Nov/2025 23:33:32] "POST /auth/login HTTP/1.1" 200 -
+172.24.224.1 - - [18/Nov/2025 23:33:32] "OPTIONS /admin/users HTTP/1.1" 200 -
+172.24.224.1 - - [18/Nov/2025 23:33:32] "OPTIONS /admin/users HTTP/1.1" 200 -
+172.24.224.1 - - [18/Nov/2025 23:33:32] "GET /admin/users HTTP/1.1" 200 -
+172.24.224.1 - - [18/Nov/2025 23:33:32] "GET /admin/users HTTP/1.1" 200 -
+172.24.224.1 - - [18/Nov/2025 23:34:20] "OPTIONS /admin/assignments HTTP/1.1" 200 -
+172.24.224.1 - - [18/Nov/2025 23:34:20] "GET /admin/assignments HTTP/1.1" 200 -
+ * Detected change in '/home/chicocaine/soft-dev/christmas-draw/backend/routes/admin.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 790-165-831
+172.24.224.1 - - [18/Nov/2025 23:34:47] "OPTIONS /admin/generate-assignments HTTP/1.1" 200 -
+172.24.224.1 - - [18/Nov/2025 23:34:47] "POST /admin/generate-assignments HTTP/1.1" 200 -
+172.24.224.1 - - [18/Nov/2025 23:34:47] "OPTIONS /admin/users HTTP/1.1" 200 -
+172.24.224.1 - - [18/Nov/2025 23:34:47] "GET /admin/users HTTP/1.1" 200 -
+172.24.224.1 - - [18/Nov/2025 23:34:48] "OPTIONS /admin/assignments HTTP/1.1" 200 -
+172.24.224.1 - - [18/Nov/2025 23:34:48] "GET /admin/assignments HTTP/1.1" 200 -
+172.24.224.1 - - [18/Nov/2025 23:35:05] "OPTIONS /admin/users/2/password HTTP/1.1" 200 -
+172.24.224.1 - - [18/Nov/2025 23:35:06] "PUT /admin/users/2/password HTTP/1.1" 200 -
+172.24.224.1 - - [18/Nov/2025 23:35:12] "OPTIONS /admin/assignments HTTP/1.1" 200 -
+172.24.224.1 - - [18/Nov/2025 23:35:12] "GET /admin/assignments HTTP/1.1" 200 -
+172.24.224.1 - - [18/Nov/2025 23:36:01] "OPTIONS /admin/users HTTP/1.1" 200 -
+172.24.224.1 - - [18/Nov/2025 23:36:01] "GET /admin/users HTTP/1.1" 200 -
+172.24.224.1 - - [18/Nov/2025 23:38:00] "OPTIONS /admin/users HTTP/1.1" 200 -
+172.24.224.1 - - [18/Nov/2025 23:38:00] "GET /admin/users HTTP/1.1" 200 -
+172.24.224.1 - - [18/Nov/2025 23:38:14] "OPTIONS /admin/users HTTP/1.1" 200 -
+172.24.224.1 - - [18/Nov/2025 23:38:14] "GET /admin/users HTTP/1.1" 200 -
+172.24.224.1 - - [18/Nov/2025 23:43:39] "OPTIONS /admin/assignments HTTP/1.1" 200 -
+172.24.224.1 - - [18/Nov/2025 23:43:39] "GET /admin/assignments HTTP/1.1" 200 -
+172.24.224.1 - - [18/Nov/2025 23:43:46] "GET /admin/assignments HTTP/1.1" 200 -
+ * Detected change in '/home/chicocaine/soft-dev/christmas-draw/backend/routes/user.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 790-165-831
+172.24.224.1 - - [18/Nov/2025 23:49:48] "OPTIONS /auth/login HTTP/1.1" 200 -
+172.24.224.1 - - [18/Nov/2025 23:49:48] "POST /auth/login HTTP/1.1" 200 -
+172.24.224.1 - - [18/Nov/2025 23:49:48] "OPTIONS /user/all-users HTTP/1.1" 200 -
+172.24.224.1 - - [18/Nov/2025 23:49:48] "OPTIONS /user/assignment HTTP/1.1" 200 -
+172.24.224.1 - - [18/Nov/2025 23:49:48] "OPTIONS /user/all-users HTTP/1.1" 200 -
+172.24.224.1 - - [18/Nov/2025 23:49:48] "OPTIONS /user/assignment HTTP/1.1" 200 -
+172.24.224.1 - - [18/Nov/2025 23:49:48] "GET /user/all-users HTTP/1.1" 200 -
+172.24.224.1 - - [18/Nov/2025 23:49:48] "GET /user/all-users HTTP/1.1" 200 -
+172.24.224.1 - - [18/Nov/2025 23:49:48] "GET /user/assignment HTTP/1.1" 200 -
+172.24.224.1 - - [18/Nov/2025 23:49:48] "GET /user/assignment HTTP/1.1" 200 -
+ * Detected change in '/home/chicocaine/soft-dev/christmas-draw/backend/routes/user.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 790-165-831
+172.24.224.1 - - [18/Nov/2025 23:59:29] "OPTIONS /user/assignment HTTP/1.1" 200 -
+172.24.224.1 - - [18/Nov/2025 23:59:29] "OPTIONS /user/all-users HTTP/1.1" 200 -
+172.24.224.1 - - [18/Nov/2025 23:59:29] "OPTIONS /user/assignment HTTP/1.1" 200 -
+172.24.224.1 - - [18/Nov/2025 23:59:29] "OPTIONS /user/all-users HTTP/1.1" 200 -
+172.24.224.1 - - [18/Nov/2025 23:59:29] "GET /user/assignment HTTP/1.1" 200 -
+172.24.224.1 - - [18/Nov/2025 23:59:29] "GET /user/all-users HTTP/1.1" 200 -
+172.24.224.1 - - [18/Nov/2025 23:59:29] "GET /user/all-users HTTP/1.1" 200 -
+172.24.224.1 - - [18/Nov/2025 23:59:29] "GET /user/assignment HTTP/1.1" 200 -
+172.24.224.1 - - [19/Nov/2025 00:00:39] "OPTIONS /user/assignment HTTP/1.1" 200 -
+172.24.224.1 - - [19/Nov/2025 00:00:39] "OPTIONS /user/all-users HTTP/1.1" 200 -
+172.24.224.1 - - [19/Nov/2025 00:00:39] "OPTIONS /user/assignment HTTP/1.1" 200 -
+172.24.224.1 - - [19/Nov/2025 00:00:39] "OPTIONS /user/all-users HTTP/1.1" 200 -
+172.24.224.1 - - [19/Nov/2025 00:00:39] "GET /user/assignment HTTP/1.1" 200 -
+172.24.224.1 - - [19/Nov/2025 00:00:39] "GET /user/all-users HTTP/1.1" 200 -
+172.24.224.1 - - [19/Nov/2025 00:00:39] "GET /user/assignment HTTP/1.1" 200 -
+172.24.224.1 - - [19/Nov/2025 00:00:39] "GET /user/all-users HTTP/1.1" 200 -
+172.24.224.1 - - [19/Nov/2025 00:01:11] "OPTIONS /user/assignment HTTP/1.1" 200 -
+172.24.224.1 - - [19/Nov/2025 00:01:11] "OPTIONS /user/all-users HTTP/1.1" 200 -
+172.24.224.1 - - [19/Nov/2025 00:01:11] "OPTIONS /user/assignment HTTP/1.1" 200 -
+172.24.224.1 - - [19/Nov/2025 00:01:11] "OPTIONS /user/all-users HTTP/1.1" 200 -
+172.24.224.1 - - [19/Nov/2025 00:01:11] "GET /user/all-users HTTP/1.1" 200 -
+172.24.224.1 - - [19/Nov/2025 00:01:11] "GET /user/assignment HTTP/1.1" 200 -
+172.24.224.1 - - [19/Nov/2025 00:01:12] "GET /user/assignment HTTP/1.1" 200 -
+172.24.224.1 - - [19/Nov/2025 00:01:12] "GET /user/all-users HTTP/1.1" 200 -
+172.24.224.1 - - [19/Nov/2025 00:03:07] "OPTIONS /user/assignment HTTP/1.1" 200 -
+172.24.224.1 - - [19/Nov/2025 00:03:07] "OPTIONS /user/all-users HTTP/1.1" 200 -
+172.24.224.1 - - [19/Nov/2025 00:03:07] "OPTIONS /user/assignment HTTP/1.1" 200 -
+172.24.224.1 - - [19/Nov/2025 00:03:07] "OPTIONS /user/all-users HTTP/1.1" 200 -
+172.24.224.1 - - [19/Nov/2025 00:03:07] "GET /user/assignment HTTP/1.1" 200 -
+172.24.224.1 - - [19/Nov/2025 00:03:07] "GET /user/all-users HTTP/1.1" 200 -
+172.24.224.1 - - [19/Nov/2025 00:03:07] "GET /user/assignment HTTP/1.1" 200 -
+172.24.224.1 - - [19/Nov/2025 00:03:07] "GET /user/all-users HTTP/1.1" 200 -
+172.24.224.1 - - [19/Nov/2025 00:03:32] "OPTIONS /user/assignment HTTP/1.1" 200 -
+172.24.224.1 - - [19/Nov/2025 00:03:32] "OPTIONS /user/all-users HTTP/1.1" 200 -
+172.24.224.1 - - [19/Nov/2025 00:03:32] "OPTIONS /user/assignment HTTP/1.1" 200 -
+172.24.224.1 - - [19/Nov/2025 00:03:32] "OPTIONS /user/all-users HTTP/1.1" 200 -
+172.24.224.1 - - [19/Nov/2025 00:03:32] "GET /user/assignment HTTP/1.1" 200 -
+172.24.224.1 - - [19/Nov/2025 00:03:32] "GET /user/all-users HTTP/1.1" 200 -
+172.24.224.1 - - [19/Nov/2025 00:03:32] "GET /user/all-users HTTP/1.1" 200 -
+172.24.224.1 - - [19/Nov/2025 00:03:32] "GET /user/assignment HTTP/1.1" 200 -
+172.24.224.1 - - [19/Nov/2025 00:04:21] "OPTIONS /user/assignment HTTP/1.1" 200 -
+172.24.224.1 - - [19/Nov/2025 00:04:21] "OPTIONS /user/all-users HTTP/1.1" 200 -
+172.24.224.1 - - [19/Nov/2025 00:04:21] "GET /user/all-users HTTP/1.1" 200 -
+172.24.224.1 - - [19/Nov/2025 00:04:21] "GET /user/assignment HTTP/1.1" 200 -
+172.24.224.1 - - [19/Nov/2025 00:04:21] "GET /user/all-users HTTP/1.1" 200 -
+172.24.224.1 - - [19/Nov/2025 00:04:21] "GET /user/assignment HTTP/1.1" 200 -
+172.24.224.1 - - [19/Nov/2025 00:05:19] "OPTIONS /user/assignment HTTP/1.1" 200 -
+172.24.224.1 - - [19/Nov/2025 00:05:19] "OPTIONS /user/all-users HTTP/1.1" 200 -
+172.24.224.1 - - [19/Nov/2025 00:05:19] "[31m[1mGET /user/assignment HTTP/1.1[0m" 401 -
+172.24.224.1 - - [19/Nov/2025 00:05:19] "[31m[1mGET /user/all-users HTTP/1.1[0m" 401 -
+172.24.224.1 - - [19/Nov/2025 00:05:19] "[31m[1mGET /user/assignment HTTP/1.1[0m" 401 -
+172.24.224.1 - - [19/Nov/2025 00:05:29] "OPTIONS /auth/login HTTP/1.1" 200 -
+172.24.224.1 - - [19/Nov/2025 00:05:29] "POST /auth/login HTTP/1.1" 200 -
+172.24.224.1 - - [19/Nov/2025 00:05:29] "OPTIONS /user/assignment HTTP/1.1" 200 -
+172.24.224.1 - - [19/Nov/2025 00:05:29] "OPTIONS /user/assignment HTTP/1.1" 200 -
+172.24.224.1 - - [19/Nov/2025 00:05:29] "OPTIONS /user/all-users HTTP/1.1" 200 -
+172.24.224.1 - - [19/Nov/2025 00:05:29] "GET /user/all-users HTTP/1.1" 200 -
+172.24.224.1 - - [19/Nov/2025 00:05:29] "GET /user/assignment HTTP/1.1" 200 -
+172.24.224.1 - - [19/Nov/2025 00:05:29] "GET /user/all-users HTTP/1.1" 200 -
+172.24.224.1 - - [19/Nov/2025 00:05:29] "GET /user/assignment HTTP/1.1" 200 -
+172.24.224.1 - - [19/Nov/2025 00:08:26] "OPTIONS /user/assignment HTTP/1.1" 200 -
+172.24.224.1 - - [19/Nov/2025 00:08:26] "OPTIONS /user/all-users HTTP/1.1" 200 -
+172.24.224.1 - - [19/Nov/2025 00:08:26] "OPTIONS /user/assignment HTTP/1.1" 200 -
+172.24.224.1 - - [19/Nov/2025 00:08:26] "OPTIONS /user/all-users HTTP/1.1" 200 -
+172.24.224.1 - - [19/Nov/2025 00:08:26] "GET /user/all-users HTTP/1.1" 200 -
+172.24.224.1 - - [19/Nov/2025 00:08:26] "GET /user/assignment HTTP/1.1" 200 -
+172.24.224.1 - - [19/Nov/2025 00:08:26] "GET /user/assignment HTTP/1.1" 200 -
+172.24.224.1 - - [19/Nov/2025 00:08:26] "GET /user/all-users HTTP/1.1" 200 -
+172.24.224.1 - - [19/Nov/2025 00:14:51] "OPTIONS /auth/login HTTP/1.1" 200 -
+172.24.224.1 - - [19/Nov/2025 00:14:51] "[31m[1mPOST /auth/login HTTP/1.1[0m" 401 -
+172.24.224.1 - - [19/Nov/2025 00:16:58] "OPTIONS /auth/login HTTP/1.1" 200 -
+172.24.224.1 - - [19/Nov/2025 00:16:59] "POST /auth/login HTTP/1.1" 200 -
+172.24.224.1 - - [19/Nov/2025 00:16:59] "OPTIONS /user/assignment HTTP/1.1" 200 -
+172.24.224.1 - - [19/Nov/2025 00:16:59] "OPTIONS /user/assignment HTTP/1.1" 200 -
+172.24.224.1 - - [19/Nov/2025 00:16:59] "OPTIONS /user/all-users HTTP/1.1" 200 -
+172.24.224.1 - - [19/Nov/2025 00:16:59] "OPTIONS /user/all-users HTTP/1.1" 200 -
+172.24.224.1 - - [19/Nov/2025 00:16:59] "GET /user/assignment HTTP/1.1" 200 -
+172.24.224.1 - - [19/Nov/2025 00:16:59] "GET /user/all-users HTTP/1.1" 200 -
+172.24.224.1 - - [19/Nov/2025 00:16:59] "GET /user/assignment HTTP/1.1" 200 -
+172.24.224.1 - - [19/Nov/2025 00:16:59] "GET /user/all-users HTTP/1.1" 200 -
+172.24.224.1 - - [19/Nov/2025 00:21:09] "OPTIONS /auth/login HTTP/1.1" 200 -
+172.24.224.1 - - [19/Nov/2025 00:21:10] "[31m[1mPOST /auth/login HTTP/1.1[0m" 401 -
+172.24.224.1 - - [19/Nov/2025 00:21:15] "OPTIONS /auth/login HTTP/1.1" 200 -
+172.24.224.1 - - [19/Nov/2025 00:21:15] "POST /auth/login HTTP/1.1" 200 -
+172.24.224.1 - - [19/Nov/2025 00:21:15] "OPTIONS /admin/users HTTP/1.1" 200 -
+172.24.224.1 - - [19/Nov/2025 00:21:15] "GET /admin/users HTTP/1.1" 200 -
+172.24.224.1 - - [19/Nov/2025 00:21:15] "GET /admin/users HTTP/1.1" 200 -
+172.24.224.1 - - [19/Nov/2025 00:22:31] "OPTIONS /admin/create-users HTTP/1.1" 200 -
+172.24.224.1 - - [19/Nov/2025 00:22:32] "POST /admin/create-users HTTP/1.1" 200 -
+172.24.224.1 - - [19/Nov/2025 00:22:32] "OPTIONS /admin/users HTTP/1.1" 200 -
+172.24.224.1 - - [19/Nov/2025 00:22:32] "GET /admin/users HTTP/1.1" 200 -
+172.24.224.1 - - [19/Nov/2025 00:22:35] "OPTIONS /admin/generate-assignments HTTP/1.1" 200 -
+172.24.224.1 - - [19/Nov/2025 00:22:35] "POST /admin/generate-assignments HTTP/1.1" 200 -
+172.24.224.1 - - [19/Nov/2025 00:22:35] "GET /admin/users HTTP/1.1" 200 -
+172.24.224.1 - - [19/Nov/2025 00:22:46] "OPTIONS /auth/login HTTP/1.1" 200 -
+172.24.224.1 - - [19/Nov/2025 00:22:47] "POST /auth/login HTTP/1.1" 200 -
+172.24.224.1 - - [19/Nov/2025 00:22:47] "OPTIONS /user/assignment HTTP/1.1" 200 -
+172.24.224.1 - - [19/Nov/2025 00:22:47] "OPTIONS /user/all-users HTTP/1.1" 200 -
+172.24.224.1 - - [19/Nov/2025 00:22:47] "GET /user/all-users HTTP/1.1" 200 -
+172.24.224.1 - - [19/Nov/2025 00:22:47] "GET /user/assignment HTTP/1.1" 200 -
+172.24.224.1 - - [19/Nov/2025 00:22:47] "GET /user/all-users HTTP/1.1" 200 -
+172.24.224.1 - - [19/Nov/2025 00:22:47] "GET /user/assignment HTTP/1.1" 200 -
+172.24.224.1 - - [19/Nov/2025 00:23:15] "OPTIONS /auth/login HTTP/1.1" 200 -
+172.24.224.1 - - [19/Nov/2025 00:23:15] "POST /auth/login HTTP/1.1" 200 -
+172.24.224.1 - - [19/Nov/2025 00:23:15] "OPTIONS /admin/users HTTP/1.1" 200 -
+172.24.224.1 - - [19/Nov/2025 00:23:15] "GET /admin/users HTTP/1.1" 200 -
+172.24.224.1 - - [19/Nov/2025 00:23:15] "GET /admin/users HTTP/1.1" 200 -
+172.24.224.1 - - [19/Nov/2025 00:23:21] "OPTIONS /admin/assignments HTTP/1.1" 200 -
+172.24.224.1 - - [19/Nov/2025 00:23:21] "GET /admin/assignments HTTP/1.1" 200 -
+172.24.224.1 - - [19/Nov/2025 00:23:44] "OPTIONS /auth/login HTTP/1.1" 200 -
+172.24.224.1 - - [19/Nov/2025 00:23:45] "POST /auth/login HTTP/1.1" 200 -
+172.24.224.1 - - [19/Nov/2025 00:23:45] "OPTIONS /user/assignment HTTP/1.1" 200 -
+172.24.224.1 - - [19/Nov/2025 00:23:45] "OPTIONS /user/all-users HTTP/1.1" 200 -
+172.24.224.1 - - [19/Nov/2025 00:23:45] "GET /user/all-users HTTP/1.1" 200 -
+172.24.224.1 - - [19/Nov/2025 00:23:45] "GET /user/assignment HTTP/1.1" 200 -
+172.24.224.1 - - [19/Nov/2025 00:23:45] "GET /user/all-users HTTP/1.1" 200 -
+172.24.224.1 - - [19/Nov/2025 00:23:45] "GET /user/assignment HTTP/1.1" 200 -
+ * Detected change in '/home/chicocaine/soft-dev/christmas-draw/backend/routes/user.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 790-165-831
+172.24.224.1 - - [19/Nov/2025 00:27:14] "OPTIONS /user/assignment HTTP/1.1" 200 -
+172.24.224.1 - - [19/Nov/2025 00:27:14] "OPTIONS /user/all-users HTTP/1.1" 200 -
+172.24.224.1 - - [19/Nov/2025 00:27:14] "GET /user/assignment HTTP/1.1" 200 -
+172.24.224.1 - - [19/Nov/2025 00:27:14] "GET /user/all-users HTTP/1.1" 200 -
+172.24.224.1 - - [19/Nov/2025 00:27:14] "GET /user/assignment HTTP/1.1" 200 -
+172.24.224.1 - - [19/Nov/2025 00:27:14] "GET /user/all-users HTTP/1.1" 200 -
+172.24.224.1 - - [19/Nov/2025 00:27:18] "GET /user/assignment HTTP/1.1" 200 -
+172.24.224.1 - - [19/Nov/2025 00:27:18] "GET /user/all-users HTTP/1.1" 200 -
+172.24.224.1 - - [19/Nov/2025 00:27:18] "GET /user/assignment HTTP/1.1" 200 -
+172.24.224.1 - - [19/Nov/2025 00:27:18] "GET /user/all-users HTTP/1.1" 200 -
+172.24.224.1 - - [19/Nov/2025 00:27:54] "OPTIONS /auth/login HTTP/1.1" 200 -
+172.24.224.1 - - [19/Nov/2025 00:27:54] "POST /auth/login HTTP/1.1" 200 -
+172.24.224.1 - - [19/Nov/2025 00:27:54] "OPTIONS /user/assignment HTTP/1.1" 200 -
+172.24.224.1 - - [19/Nov/2025 00:27:54] "OPTIONS /user/all-users HTTP/1.1" 200 -
+172.24.224.1 - - [19/Nov/2025 00:27:54] "GET /user/all-users HTTP/1.1" 200 -
+172.24.224.1 - - [19/Nov/2025 00:27:54] "GET /user/assignment HTTP/1.1" 200 -
+172.24.224.1 - - [19/Nov/2025 00:27:54] "GET /user/all-users HTTP/1.1" 200 -
+172.24.224.1 - - [19/Nov/2025 00:27:54] "GET /user/assignment HTTP/1.1" 200 -
+172.24.224.1 - - [19/Nov/2025 00:28:18] "OPTIONS /auth/login HTTP/1.1" 200 -
+172.24.224.1 - - [19/Nov/2025 00:28:19] "POST /auth/login HTTP/1.1" 200 -
+172.24.224.1 - - [19/Nov/2025 00:28:19] "OPTIONS /admin/users HTTP/1.1" 200 -
+172.24.224.1 - - [19/Nov/2025 00:28:19] "GET /admin/users HTTP/1.1" 200 -
+172.24.224.1 - - [19/Nov/2025 00:28:19] "GET /admin/users HTTP/1.1" 200 -
+172.24.224.1 - - [19/Nov/2025 00:29:53] "OPTIONS /auth/login HTTP/1.1" 200 -
+172.24.224.1 - - [19/Nov/2025 00:29:53] "POST /auth/login HTTP/1.1" 200 -
+172.24.224.1 - - [19/Nov/2025 00:29:53] "OPTIONS /user/assignment HTTP/1.1" 200 -
+172.24.224.1 - - [19/Nov/2025 00:29:53] "OPTIONS /user/assignment HTTP/1.1" 200 -
+172.24.224.1 - - [19/Nov/2025 00:29:53] "OPTIONS /user/all-users HTTP/1.1" 200 -
+172.24.224.1 - - [19/Nov/2025 00:29:53] "OPTIONS /user/all-users HTTP/1.1" 200 -
+172.24.224.1 - - [19/Nov/2025 00:29:53] "GET /user/all-users HTTP/1.1" 200 -
+172.24.224.1 - - [19/Nov/2025 00:29:53] "GET /user/all-users HTTP/1.1" 200 -
+172.24.224.1 - - [19/Nov/2025 00:29:53] "GET /user/assignment HTTP/1.1" 200 -
+172.24.224.1 - - [19/Nov/2025 00:29:53] "GET /user/assignment HTTP/1.1" 200 -
+172.24.224.1 - - [19/Nov/2025 00:30:14] "OPTIONS /auth/login HTTP/1.1" 200 -
+172.24.224.1 - - [19/Nov/2025 00:30:15] "POST /auth/login HTTP/1.1" 200 -
+172.24.224.1 - - [19/Nov/2025 00:30:15] "OPTIONS /user/assignment HTTP/1.1" 200 -
+172.24.224.1 - - [19/Nov/2025 00:30:15] "OPTIONS /user/all-users HTTP/1.1" 200 -
+172.24.224.1 - - [19/Nov/2025 00:30:15] "GET /user/assignment HTTP/1.1" 200 -
+172.24.224.1 - - [19/Nov/2025 00:30:15] "GET /user/all-users HTTP/1.1" 200 -
+172.24.224.1 - - [19/Nov/2025 00:30:15] "GET /user/assignment HTTP/1.1" 200 -
+172.24.224.1 - - [19/Nov/2025 00:30:15] "GET /user/all-users HTTP/1.1" 200 -
+172.24.224.1 - - [19/Nov/2025 00:31:51] "OPTIONS /auth/login HTTP/1.1" 200 -
+172.24.224.1 - - [19/Nov/2025 00:31:51] "POST /auth/login HTTP/1.1" 200 -
+172.24.224.1 - - [19/Nov/2025 00:31:51] "OPTIONS /user/assignment HTTP/1.1" 200 -
+172.24.224.1 - - [19/Nov/2025 00:31:51] "OPTIONS /user/all-users HTTP/1.1" 200 -
+172.24.224.1 - - [19/Nov/2025 00:31:51] "GET /user/assignment HTTP/1.1" 200 -
+172.24.224.1 - - [19/Nov/2025 00:31:51] "GET /user/all-users HTTP/1.1" 200 -
+172.24.224.1 - - [19/Nov/2025 00:31:51] "GET /user/assignment HTTP/1.1" 200 -
+172.24.224.1 - - [19/Nov/2025 00:31:51] "GET /user/all-users HTTP/1.1" 200 -
+172.24.224.1 - - [19/Nov/2025 00:31:52] "GET /user/assignment HTTP/1.1" 200 -
+172.24.224.1 - - [19/Nov/2025 00:32:07] "OPTIONS /auth/login HTTP/1.1" 200 -
+172.24.224.1 - - [19/Nov/2025 00:32:08] "POST /auth/login HTTP/1.1" 200 -
+172.24.224.1 - - [19/Nov/2025 00:32:08] "OPTIONS /user/assignment HTTP/1.1" 200 -
+172.24.224.1 - - [19/Nov/2025 00:32:08] "OPTIONS /user/assignment HTTP/1.1" 200 -
+172.24.224.1 - - [19/Nov/2025 00:32:08] "OPTIONS /user/all-users HTTP/1.1" 200 -
+172.24.224.1 - - [19/Nov/2025 00:32:08] "OPTIONS /user/all-users HTTP/1.1" 200 -
+172.24.224.1 - - [19/Nov/2025 00:32:08] "GET /user/all-users HTTP/1.1" 200 -
+172.24.224.1 - - [19/Nov/2025 00:32:08] "GET /user/all-users HTTP/1.1" 200 -
+172.24.224.1 - - [19/Nov/2025 00:32:08] "GET /user/assignment HTTP/1.1" 200 -
+172.24.224.1 - - [19/Nov/2025 00:32:08] "GET /user/assignment HTTP/1.1" 200 -
+172.24.224.1 - - [19/Nov/2025 00:32:09] "GET /user/assignment HTTP/1.1" 200 -
+172.24.224.1 - - [19/Nov/2025 00:33:27] "OPTIONS /auth/login HTTP/1.1" 200 -
+172.24.224.1 - - [19/Nov/2025 00:33:27] "POST /auth/login HTTP/1.1" 200 -
+172.24.224.1 - - [19/Nov/2025 00:33:27] "OPTIONS /user/assignment HTTP/1.1" 200 -
+172.24.224.1 - - [19/Nov/2025 00:33:27] "OPTIONS /user/all-users HTTP/1.1" 200 -
+172.24.224.1 - - [19/Nov/2025 00:33:27] "OPTIONS /user/assignment HTTP/1.1" 200 -
+172.24.224.1 - - [19/Nov/2025 00:33:27] "OPTIONS /user/all-users HTTP/1.1" 200 -
+172.24.224.1 - - [19/Nov/2025 00:33:27] "GET /user/all-users HTTP/1.1" 200 -
+172.24.224.1 - - [19/Nov/2025 00:33:27] "GET /user/all-users HTTP/1.1" 200 -
+172.24.224.1 - - [19/Nov/2025 00:33:27] "GET /user/assignment HTTP/1.1" 200 -
+172.24.224.1 - - [19/Nov/2025 00:33:27] "GET /user/assignment HTTP/1.1" 200 -
+172.24.224.1 - - [19/Nov/2025 00:33:28] "GET /user/assignment HTTP/1.1" 200 -
+172.24.224.1 - - [19/Nov/2025 00:33:44] "OPTIONS /auth/login HTTP/1.1" 200 -
+172.24.224.1 - - [19/Nov/2025 00:33:44] "POST /auth/login HTTP/1.1" 200 -
+172.24.224.1 - - [19/Nov/2025 00:33:45] "OPTIONS /admin/users HTTP/1.1" 200 -
+172.24.224.1 - - [19/Nov/2025 00:33:45] "GET /admin/users HTTP/1.1" 200 -
+172.24.224.1 - - [19/Nov/2025 00:33:45] "GET /admin/users HTTP/1.1" 200 -
+172.24.224.1 - - [19/Nov/2025 00:36:37] "OPTIONS /admin/generate-assignments HTTP/1.1" 200 -
+172.24.224.1 - - [19/Nov/2025 00:36:37] "POST /admin/generate-assignments HTTP/1.1" 200 -
+172.24.224.1 - - [19/Nov/2025 00:36:37] "OPTIONS /admin/users HTTP/1.1" 200 -
+172.24.224.1 - - [19/Nov/2025 00:36:37] "GET /admin/users HTTP/1.1" 200 -
+ * Detected change in '/home/chicocaine/soft-dev/christmas-draw/backend/routes/user.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 790-165-831
+ * Detected change in '/home/chicocaine/soft-dev/christmas-draw/backend/routes/user.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 790-165-831
+172.24.224.1 - - [19/Nov/2025 00:38:37] "OPTIONS /auth/login HTTP/1.1" 200 -
+172.24.224.1 - - [19/Nov/2025 00:38:38] "POST /auth/login HTTP/1.1" 200 -
+172.24.224.1 - - [19/Nov/2025 00:38:38] "OPTIONS /user/assignment HTTP/1.1" 200 -
+172.24.224.1 - - [19/Nov/2025 00:38:38] "OPTIONS /user/all-users HTTP/1.1" 200 -
+172.24.224.1 - - [19/Nov/2025 00:38:38] "GET /user/assignment HTTP/1.1" 200 -
+172.24.224.1 - - [19/Nov/2025 00:38:38] "GET /user/all-users HTTP/1.1" 200 -
+172.24.224.1 - - [19/Nov/2025 00:38:38] "GET /user/assignment HTTP/1.1" 200 -
+172.24.224.1 - - [19/Nov/2025 00:38:38] "GET /user/all-users HTTP/1.1" 200 -
+172.24.224.1 - - [19/Nov/2025 00:38:39] "GET /user/assignment HTTP/1.1" 200 -
+172.24.224.1 - - [19/Nov/2025 00:38:47] "OPTIONS /user/mark-viewed HTTP/1.1" 200 -
+172.24.224.1 - - [19/Nov/2025 00:38:47] "POST /user/mark-viewed HTTP/1.1" 200 -
+172.24.224.1 - - [19/Nov/2025 00:38:54] "OPTIONS /auth/login HTTP/1.1" 200 -
+172.24.224.1 - - [19/Nov/2025 00:38:54] "POST /auth/login HTTP/1.1" 200 -
+172.24.224.1 - - [19/Nov/2025 00:38:54] "OPTIONS /user/assignment HTTP/1.1" 200 -
+172.24.224.1 - - [19/Nov/2025 00:38:54] "OPTIONS /user/all-users HTTP/1.1" 200 -
+172.24.224.1 - - [19/Nov/2025 00:38:54] "OPTIONS /user/assignment HTTP/1.1" 200 -
+172.24.224.1 - - [19/Nov/2025 00:38:54] "OPTIONS /user/all-users HTTP/1.1" 200 -
+172.24.224.1 - - [19/Nov/2025 00:38:54] "GET /user/assignment HTTP/1.1" 200 -
+172.24.224.1 - - [19/Nov/2025 00:38:54] "GET /user/all-users HTTP/1.1" 200 -
+172.24.224.1 - - [19/Nov/2025 00:38:54] "GET /user/assignment HTTP/1.1" 200 -
+172.24.224.1 - - [19/Nov/2025 00:38:54] "GET /user/all-users HTTP/1.1" 200 -
+172.24.224.1 - - [19/Nov/2025 00:41:00] "OPTIONS /user/assignment HTTP/1.1" 200 -
+172.24.224.1 - - [19/Nov/2025 00:41:00] "GET /user/assignment HTTP/1.1" 200 -
+172.24.224.1 - - [19/Nov/2025 00:41:06] "OPTIONS /auth/login HTTP/1.1" 200 -
+172.24.224.1 - - [19/Nov/2025 00:41:06] "POST /auth/login HTTP/1.1" 200 -
+172.24.224.1 - - [19/Nov/2025 00:41:06] "OPTIONS /user/assignment HTTP/1.1" 200 -
+172.24.224.1 - - [19/Nov/2025 00:41:06] "OPTIONS /user/all-users HTTP/1.1" 200 -
+172.24.224.1 - - [19/Nov/2025 00:41:06] "GET /user/assignment HTTP/1.1" 200 -
+172.24.224.1 - - [19/Nov/2025 00:41:06] "GET /user/all-users HTTP/1.1" 200 -
+172.24.224.1 - - [19/Nov/2025 00:41:06] "GET /user/assignment HTTP/1.1" 200 -
+172.24.224.1 - - [19/Nov/2025 00:41:06] "GET /user/all-users HTTP/1.1" 200 -
+172.24.224.1 - - [19/Nov/2025 00:41:07] "GET /user/assignment HTTP/1.1" 200 -
+172.24.224.1 - - [19/Nov/2025 00:41:15] "OPTIONS /user/mark-viewed HTTP/1.1" 200 -
+172.24.224.1 - - [19/Nov/2025 00:41:15] "POST /user/mark-viewed HTTP/1.1" 200 -
